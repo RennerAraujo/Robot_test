@@ -1,3 +1,4 @@
+
 #!/usr/bin/env pybricks-micropython
 from pybricks.hubs import EV3Brick
 from pybricks.ev3devices import (Motor, TouchSensor, ColorSensor,
@@ -14,7 +15,7 @@ right_motor = Motor(Port.B)
 medium_motor = Motor(Port.A)
 robot = DriveBase(left_motor, right_motor, wheel_diameter=41, axle_track = 170)
 
-# medium_motor.run_target(900, -3000) (Fechar garra)
+ medium_motor.run_target(900, 3000) (Fechar garra)
 # left_motor.run_target(3000,610)(curva de 90 graus para esqueda)
 # robot.turn(75) # (90 graus perfeito, sendo diferença de 15 graus)
 # robot.straight(250) #(Andar reto)
